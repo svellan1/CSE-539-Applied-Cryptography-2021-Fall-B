@@ -40,7 +40,10 @@
 
 * Make sure your code is located in the folder that is named correctly for that project (example: P2 for project 2) and make sure it is not nested inside of other folders. 
     * When the autograder unzip's the zipped project folder, it should see the `Program.cs` file and the `.csproj` file. (The bin and obj folders will be there as well) 
-    * ![image](https://user-images.githubusercontent.com/7727291/130523217-0b382a36-8f7b-4a3a-a9a9-c3efd5b331f9.png)
+    * **recommended**:
+         * ![image](https://user-images.githubusercontent.com/7727291/136249276-b2f8a531-598b-4752-a49f-fe1f795377d2.png)
+    * optional: 
+         * ![image](https://user-images.githubusercontent.com/7727291/130523217-0b382a36-8f7b-4a3a-a9a9-c3efd5b331f9.png)
 * Zip the project folder and submit it to be graded
     * ![image](https://user-images.githubusercontent.com/7727291/130523286-e4b7eb8e-8724-471e-a1d3-864f529ab287.png)
     * ![image](https://user-images.githubusercontent.com/7727291/130523537-e5a5f7da-283c-445e-8a97-cab327a1d54e.png)
