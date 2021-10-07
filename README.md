@@ -10,18 +10,18 @@
 * helpful link for .NET interactive notebooks: [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive)
 * microsoft blog post [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive)
 
+## :gear: :hammer: Setup Guides
 
-## Technology Requirements (.NET Core 3.1)
-* Quick start guides will use .NET Core 3.1 to develop locally. If you are using a different version of .NET, see the note at the end about how to submit your project.
+#### Technology Requirements (.NET Core 3.1)
+You can use .NET Core 3.1 or .NET 5 (or anything up from .NET 5). The autograder uses .NET Core 3.1 but the only thing you have to change in your submission is the `.csproj` config file. See the note at the end of the README about how to submit if you are not using .NET Core 3.1 for local development.
 
-## Setup Guides
 
 * [Windows](./gettingStarted/Windows)
 * [Mac OS](./gettingStarted/Mac)
 * [Docker](./gettingStarted/Docker)
 * [WSL (Windows subsystem for linux)](./gettingStarted/Windows-WSL)
 
-## Project Guides
+## :earth_americas: :world_map: Project Guides
 * [P1_1](./projectGuides/P1_1)
 * [P1_2](./projectGuides/P1_2)
 * [P2](./projectGuides/P2)
@@ -32,7 +32,7 @@
 * [input example](./projectGuides/inputExample)
 * [.csproj](./gettingStarted/SubmitProjectExample/P2.csproj)
 
-## Submitting Your Project
+## :white_check_mark: :white_check_mark: Submitting Your Project
 
 > Note: You can remove the bin and obj folders in your submission if you prefer to. You can pass the autograder by just submitting the [`.csproj`](./gettingStarted/SubmitProjectExample/P2.csproj) file and the `Program.cs` file.
 
