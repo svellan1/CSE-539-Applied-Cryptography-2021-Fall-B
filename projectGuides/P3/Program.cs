@@ -22,6 +22,12 @@ namespace P3
             // key = g_y^(x) mod N (this calculation needs to be done using BigInteger.ModPow)
 
             // you can convert a BigInteger into a byte array using the BigInteger.ToByteArray() function/method
+
+            Console.WriteLine("just printing the input");
+            foreach(var item in args)
+            {
+                Console.WriteLine(item); //DELETE, just a placeholder
+            }
             
             /*
 
