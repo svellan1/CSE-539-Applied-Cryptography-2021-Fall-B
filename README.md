@@ -12,9 +12,6 @@
 
 ## :gear: :hammer: Setup Guides
 
-#### Technology Requirements (.NET Core 3.1)
-You can use .NET Core 3.1 or .NET 5 (or anything up from .NET 5). The autograder uses .NET Core 3.1 but the only thing you have to change in your submission is the `.csproj` config file. See the note at the end of the README about how to submit if you are not using .NET Core 3.1 for local development.
-
 
 * [Windows](./gettingStarted/Windows)
 * [Mac OS](./gettingStarted/Mac)
