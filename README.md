@@ -7,8 +7,8 @@
 
 ![image](https://user-images.githubusercontent.com/7727291/136446547-cd2f51a7-5e42-46d0-b275-8c8b9c820fe5.png)
 
-* helpful link for .NET interactive notebooks: [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive)
-* microsoft blog post [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive)
+<!-- * helpful link for .NET interactive notebooks: [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive) -->
+<!-- * microsoft blog post [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive) -->
 
 ## :gear: :hammer: Setup Guides
 
