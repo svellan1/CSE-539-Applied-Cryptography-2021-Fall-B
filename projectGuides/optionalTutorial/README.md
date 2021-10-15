@@ -1,7 +1,6 @@
 # Practice Programming Assignment: Project 1 (Optional) - C# tutorial
 
-The goal of this optional project is to make sure you can submit your assingments to the autograder and to make sure you can develop C# code locally on your computer.
-
+* Submit the [HelloWorld.cs](./HelloWorld.cs) file to Gradescope (filename needs to be `HelloWorld.cs`)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GiveThanksAlways/interactive/HEAD)
 
