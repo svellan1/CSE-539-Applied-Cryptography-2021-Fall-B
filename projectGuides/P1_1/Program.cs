@@ -33,8 +33,16 @@ namespace P1_1
             return input;
         }
 
-        // The Main function will run our program
-        static void Main(string[] args)
+        // You can use this function to save a .bmp file to help you debug/ see what is going on. This function is not needed but may be useful to help visualize things
+        public static void WriteToBMPFile(byte[] bmpBytes)
+        {
+            // This will get the current PROJECT directory (P1_1)
+            string projectDirectory = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+            System.IO.File.WriteAllBytes(projectDirectory + "/example.bmp", bmpBytes);
+        }
+
+        // The autograder will grade the return value of this function. You can use other helper functions but this function should take only the args as input and return the answer for the autograder to see
+        public static string P1_1(string[] args)
         {
             // below is the example command of how to run your program
             // dotnet run "B1 FF FF CC 98 80 09 EA 04 48 7E C9"
@@ -79,16 +87,18 @@ namespace P1_1
             // TODO: put your code in the solve function and have it return the solution in the form of a byte array 
             byte[] solution = Solve(inputBytes, bmpBytes); 
 
-            // Print the solution for the autograder to see
-            Console.WriteLine(BitConverter.ToString(solution).Replace("-", " ")); // This line prints the output in the correct format for the autograder
+            // format output
+            string formatForAutograder = BitConverter.ToString(solution).Replace("-", " "); // This line formats the byte array into a string with spaces between the bytes instead of "-" between the bytes
+            Console.WriteLine(formatForAutograder); // you can still print things to the console. The autograder will ignore this, it will only test the return value of this function
+
+            return formatForAutograder; // autograder will grade this value to see if it is correct
         }
 
-        // You can use this function to save a .bmp file to help you debug/ see what is going on. This function is not needed but may be useful to help visualize things
-        public static void WriteToBMPFile(byte[] bmpBytes)
-        {
-            // This will get the current PROJECT directory (P1_1)
-            string projectDirectory = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
-            System.IO.File.WriteAllBytes(projectDirectory + "/example.bmp", bmpBytes);
+        // The Main function will run our program
+        static void Main(string[] args)
+        {   
+            // args is the array that contains the command line inputs
+            P1_1(args); // This will run your project code. The autograder will grade the return value of the P1_1 function
         }
 
     }

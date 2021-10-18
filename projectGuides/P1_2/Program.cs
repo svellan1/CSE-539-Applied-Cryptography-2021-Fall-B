@@ -60,8 +60,8 @@ namespace P1_2
             return Convert.ToBase64String(ms.GetBuffer(), 0, (int)ms.Length);
         }
 
-        // The Main function will run our program
-        static void Main(string[] args)
+        // The autograder will grade the return value of this function.
+        public static double P1_2(string[] args)
         {
             // string plaintext = "Hello World";
             // string ciphertext = "RgdIKNgHn2Wg7jXwAykTlA==";
@@ -74,10 +74,19 @@ namespace P1_2
             string ciphertext = commandlineInputs.Item2;
 
             // TODO: put your solution code in the solve function and have it return the seed. In the example, the seed returned was 26564295
-            var solution = Solve(plaintext, ciphertext);
+            double solution = Solve(plaintext, ciphertext);
+            Console.WriteLine(solution); // you can still print things to the console. The autograder will ignore this, it will only test the return value of this function
 
-            // Output the solution to the autograder
-            Console.WriteLine(solution);
+            // return the solution to the autograder
+            return solution; // autograder will grade this value to see if it is correct
+            
+        }
+
+        // The Main function will run our program
+        static void Main(string[] args)
+        {
+            // args is the array that contains the command line inputs
+            P1_2(args); // This will run your project code. The autograder will grade the return value of the P1_2 function
         }
     }
 }
