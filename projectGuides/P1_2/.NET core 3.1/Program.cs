@@ -79,7 +79,6 @@ namespace P1_2
 
             // return the solution to the autograder
             return solution; // autograder will grade this value to see if it is correct
-            
         }
 
         // The Main function will run our program

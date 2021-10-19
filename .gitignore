@@ -1,2 +1,7 @@
+# These folders/files will be created by dotnet run command
+# helps organize code by including these in the .gitignore
 bin/
 obj/
+
+# The C# extension for vscode will create this folder and it will make the launch.json and tasks.json files when you make a debugger
+.vscode/
