@@ -1,5 +1,6 @@
-# These folders/files will be created by dotnet run command
+# These folders/files will be created by dotnet run command or the debuuger build task
 # helps organize code by including these in the .gitignore
+# it is best to have these files created by dotnet on your local machine
 bin/
 obj/
 
