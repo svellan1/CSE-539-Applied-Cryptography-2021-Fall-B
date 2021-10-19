@@ -12,7 +12,7 @@
 
 ## :gear: :hammer: Setup Guides
 
-* [vscode debugger](./gettingStarted/vscode_Debugger/P0) ⭐
+* [vscode debugger](./gettingStarted/vscode_Debugger/P0) :lady_beetle: :star:
 * [Windows](./gettingStarted/Windows)
 * [Mac OS](./gettingStarted/Mac)
 * [Docker](./gettingStarted/Docker)
@@ -25,6 +25,8 @@
 * [P2](./projectGuides/P2)
 * [P3](./projectGuides/P3)
 * [P4](./projectGuides/P4)
+
+## :heavy_plus_sign: :bread: Extra Credit
 
 ##### Other examples
 * [input example](./projectGuides/inputExample)
