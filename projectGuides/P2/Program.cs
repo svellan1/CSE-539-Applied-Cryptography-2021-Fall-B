@@ -43,7 +43,7 @@ namespace P2
             byte[] exampleByteArray = Encoding.UTF8.GetBytes(example);
 
             // passwords have to be made only using alphanumeric characters, so you can make random passwords using any of the characters in the string provided below (note: The starter code doesn't include lowercase just for simplicity but you can include lowercase as well. )
-            string alphanumeric_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            // string alphanumeric_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
             // optional hint: What data structure can you use to store the salted hashes that has a really fast lookup time of O(1) (constant) ?
             // You don't have to use this data structure, but it will make your code run fast. The System.Collections.Generic libary is a good place to start
