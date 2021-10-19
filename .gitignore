@@ -3,5 +3,5 @@
 bin/
 obj/
 
-# The C# extension for vscode will create this folder and it will make the launch.json and tasks.json files when you make a debugger
-.vscode/
+# We actually will want to keep launch.json and tasks.json tracked in git because I can set up all debuggers before hand
+
