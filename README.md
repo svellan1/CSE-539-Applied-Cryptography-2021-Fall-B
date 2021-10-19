@@ -12,7 +12,7 @@
 
 ## :gear: :hammer: Setup Guides
 
-* [vscode debugger](./gettingStarted/vscode_Debugger/P0)
+* [vscode debugger](./gettingStarted/vscode_Debugger/P0) ⭐
 * [Windows](./gettingStarted/Windows)
 * [Mac OS](./gettingStarted/Mac)
 * [Docker](./gettingStarted/Docker)
