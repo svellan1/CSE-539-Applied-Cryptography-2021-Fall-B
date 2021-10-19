@@ -6,7 +6,7 @@
 
 <!-- ![image](https://user-images.githubusercontent.com/7727291/136446547-cd2f51a7-5e42-46d0-b275-8c8b9c820fe5.png) -->
 
-## Interactive C# code using JupyterLab
+## (optional) Interactive C# code using JupyterLab
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GiveThanksAlways/interactive/HEAD?labpath=%2FP1%20optional%20tutorial%2Finteractive%20Terminal.ipynb)
 
