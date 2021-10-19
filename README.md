@@ -26,11 +26,9 @@
 * [P3](./projectGuides/P3)
 * [P4](./projectGuides/P4)
 
+
 ## :heavy_plus_sign: :bread: Extra Credit
 
-##### Other examples
-* [input example](./projectGuides/inputExample)
-* [.csproj](./gettingStarted/SubmitProjectExample/P2.csproj)
 
 ## :white_check_mark: :white_check_mark: Submitting Your Project
 
