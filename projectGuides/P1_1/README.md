@@ -5,7 +5,6 @@
 * The autograder will run your code with different inputs 
 * The autograder grades the output of the `P1_1()` function provided in the starter code on GitHub
 
-
 ## Instructions --> [P1 instructions](./P1%20instructions.pdf)
 
 ## Starter code
