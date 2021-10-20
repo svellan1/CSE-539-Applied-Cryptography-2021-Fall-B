@@ -25,7 +25,7 @@
             "request": "launch",
             "preLaunchTask": "P1_1 Build",
             "program": "${workspaceFolder}/projectGuides/P1_1/.NET 5.0/bin/Debug/net5.0/P1_1.dll",
-            "args": ["B1 FF FF CC 98 80 09 EA 04 48 7E C9"], // args is the string array that holds the command line inputs that follow dotnet run
+            "args": ["B1 FF FF CC 98 80 09 EA 04 48 7E C9"], // args is the array of strings which holds the command line inputs that follow dotnet run
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true, // set to false to not stop at the entrypoint Main() every single time
             "console": "internalConsole"
@@ -37,7 +37,7 @@
             "request": "launch",
             "preLaunchTask": "P1_2 Build",
             "program": "${workspaceFolder}/projectGuides/P1_2/.NET 5.0/bin/Debug/net5.0/P1_2.dll",
-            "args": ["Hello World", "RgdIKNgHn2Wg7jXwAykTlA=="], // args is the string array that holds the command line inputs that follow dotnet run
+            "args": ["Hello World", "RgdIKNgHn2Wg7jXwAykTlA=="], // args is the array of strings which holds the command line inputs that follow dotnet run
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true, // set to false to not stop at the entrypoint Main() every single time
             "console": "internalConsole"
@@ -49,7 +49,7 @@
             "request": "launch",
             "preLaunchTask": "P2 Build",
             "program": "${workspaceFolder}/projectGuides/P2/.NET 5.0/bin/Debug/net5.0/P2.dll",
-            "args": ["C5"], // args is the string array that holds the command line inputs that follow dotnet run
+            "args": ["C5"], // args is the array of strings which holds the command line inputs that follow dotnet run
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true, // set to false to not stop at the entrypoint Main() every single time
             "console": "internalConsole"
@@ -70,7 +70,7 @@
                 "2101864342", 
                 "8995936589171851885163650660432521853327227178155593274584417851704581358902", 
                 "F2 2C 95 FC 6B 98 BE 40 AE AD 9C 07 20 3B B3 9F F8 2F 6D 2D 69 D6 5D 40 0A 75 45 80 45 F2 DE C8 6E C0 FF 33 A4 97 8A AF 4A CD 6E 50 86 AA 3E DF", 
-                "AfYw7Z6RzU9ZaGUloPhH3QpfA1AXWxnCGAXAwk3f6MoTx"], // args is the string array that holds the command line inputs that follow dotnet run
+                "AfYw7Z6RzU9ZaGUloPhH3QpfA1AXWxnCGAXAwk3f6MoTx"], // args is the array of strings which holds the command line inputs that follow dotnet run
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true, // set to false to not stop at the entrypoint Main() every single time
             "console": "internalConsole"
@@ -88,7 +88,7 @@
                 "251",
                 "1339",
                 "66536047120374145538916787981868004206438539248910734713495276883724693574434582104900978079701174539167102706725422582788481727619546235440508214694579",
-                "1756026041"], // args is the string array that holds the command line inputs that follow dotnet run
+                "1756026041"], // args is the array of strings which holds the command line inputs that follow dotnet run
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true, // set to false to not stop at the entrypoint Main() every single time
             "console": "internalConsole"
