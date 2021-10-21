@@ -10,6 +10,9 @@
 <!-- * helpful link for .NET interactive notebooks: [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive) -->
 <!-- * microsoft blog post [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive) -->
 
+## :construction: :abacus: Technology Requirements
+* [.NET 5 SDK](https://dotnet.microsoft.com/download)
+
 ## :gear: :hammer: Setup Guides
 
 * [vscode debugger](./gettingStarted/vscode_Debugger/P0) :lady_beetle: :star:
@@ -19,7 +22,7 @@
 * [WSL (Windows subsystem for linux)](./gettingStarted/Windows-WSL)
 
 ## :earth_americas: :world_map: Project Guides
-* [optional tutorial](./projectGuides/optionalTutorial)
+* [P0 (optional)](./projectGuides/optionalTutorial)
 * [P1_1](./projectGuides/P1_1)
 * [P1_2](./projectGuides/P1_2)
 * [P2](./projectGuides/P2)
