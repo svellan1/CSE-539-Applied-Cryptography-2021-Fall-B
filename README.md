@@ -28,7 +28,7 @@
 
 
 ## :heavy_plus_sign: :bread: Extra Credit
-
+* 5% extra credit will be allowed in the course. I will add the extra credit assignments soon.
 
 ## :white_check_mark: :white_check_mark: Submitting Your Project
 
