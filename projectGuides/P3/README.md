@@ -1,7 +1,15 @@
 # P3
 
-This example code is optional. It may help some students get started with the project P3
+## Submission
+* Upload your `Program.cs` file to Gradescope. (The file needs to be named `Program.cs`)
+* (if you are not using the stater code you need to make sure the `Namespace` and class name match the starter code)
+* The autograder will run your code with different inputs 
+* The autograder grades the output of the `P3()` function provided in the starter code on GitHub
 
-* [P3 starter code](./Program.cs)
-* [Windows - testYourProgram.ps1](./testYourProgram.ps1)
-* [Ubuntu - testYourProgram.sh](./testYourProgram.sh)
+## Instructions
+* [P3 instructions](./P3%20instructions.pdf)
+
+## Starter code
+<!-- %20 is url encoding for spaces -->
+* [P3 starter code (.NET 5)](./.NET%205.0/Program.cs)
+* [vscode debugger (highly recommended)](../../gettingStarted/vscode_Debugger/P0) :lady_beetle: :star:
