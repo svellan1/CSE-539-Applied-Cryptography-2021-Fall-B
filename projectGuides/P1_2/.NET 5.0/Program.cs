@@ -7,7 +7,7 @@ namespace P1_2
     class Program
     {
         // This function will get the plaintext and the ciphertext from the command line
-        public static Tuple<string,string> getInputFromCommandLine(string[] args)
+        public static Tuple<string,string> GetInputFromCommandLine(string[] args)
         {
             // initialize variables
             string input_1="", input_2="";
@@ -69,7 +69,7 @@ namespace P1_2
 
             // string plaintext = args[0];
             // string ciphertext = args[1];
-            Tuple<string, string> commandlineInputs = getInputFromCommandLine(args);
+            Tuple<string, string> commandlineInputs = GetInputFromCommandLine(args);
             string plaintext = commandlineInputs.Item1;
             string ciphertext = commandlineInputs.Item2;
 

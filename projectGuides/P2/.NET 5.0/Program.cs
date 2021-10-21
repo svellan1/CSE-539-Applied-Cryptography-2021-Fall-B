@@ -9,7 +9,7 @@ namespace P2
     class Program
     {
         // This function will help us get the input from the command line
-        public static string getInputFromCommandLine(string[] args)
+        public static string GetInputFromCommandLine(string[] args)
         {
             // get the input from the command line
             string input = "";
@@ -24,7 +24,7 @@ namespace P2
             return input;
         }
         
-        static void Main(string[] args)
+        public static string P2(string[] args)
         {
             // Some helpful hints:
             // The main idea is to concateneate the salt to a random string, 
@@ -53,7 +53,17 @@ namespace P2
             // These were given as en example, you are going to have to find two passwords that have matching salted hashes with your code and then output them for the autograder to see
             string password1 = "AQJCMW0DGL";
             string password2 = "I95ORWB1A7";
-            Console.WriteLine(password1 + "," + password2); // This is one way to properly format the output for the autograder
+            string P2_answer = password1 + "," + password2;
+            Console.WriteLine(P2_answer); // you can still print things to the console. The autograder will ignore this, it will only test the return value of this function
+            
+            // return the solution to the autograder
+            return P2_answer; // autograder will grade this value to see if it is correct
+        }
+
+        static void Main(string[] args)
+        {
+            // args is the array that contains the command line inputs
+            P2(args); // This will run your project code. The autograder will grade the return value of the P1_2 function
         }
 
     }
