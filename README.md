@@ -32,4 +32,4 @@
 
 ## :white_check_mark: :white_check_mark: Submitting Your Project
 
-Currently the only thing you have to do to submit your project is to submit your `.cs` file to gradescope.
+Currently the only thing you have to do to submit your project is to submit your `Program.cs` file to gradescope.
