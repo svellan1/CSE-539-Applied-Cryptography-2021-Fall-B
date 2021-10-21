@@ -12,4 +12,3 @@
 <!-- %20 is url encoding for spaces -->
 [P1_1 starter code (.NET 5)](./.NET%205.0/Program.cs)
 
-[P1_1 starter code (.NET Core 3.1)](./.NET%20core%203.1/Program.cs)
