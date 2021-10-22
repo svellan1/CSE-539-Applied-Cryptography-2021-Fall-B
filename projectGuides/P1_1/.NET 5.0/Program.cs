@@ -34,17 +34,17 @@ namespace P1_1
         }
 
         // You can use this function to save a .bmp file to help you debug/ see what is going on. This function is not needed but may be useful to help visualize things
-        public static void WriteToBMPFile(byte[] bmpBytes)
+        public static void MakeBMPFile(byte[] bmpBytes)
         {
             // This will get the current PROJECT directory (P1_1)
-            string projectDirectory = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName;
+            string projectDirectory = System.IO.Directory.GetCurrentDirectory() + "/projectGuides/P1_1/.NET 5.0";
             System.IO.File.WriteAllBytes(projectDirectory + "/example.bmp", bmpBytes);
         }
 
         // The autograder will grade the return value of this function. You can use other helper functions but this function should take only the args as input and return the answer for the autograder to see
         public static string P1_1(string[] args)
         {
-            // below is the example command of how to run your program
+            // below is the example command of how you can run your program (or you can use the debugger)
             // dotnet run "B1 FF FF CC 98 80 09 EA 04 48 7E C9"
 
             // bmpBytes is defined in the instructions (I put it here to save you time)
