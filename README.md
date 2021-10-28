@@ -11,7 +11,8 @@
 <!-- * microsoft blog post [https://github.com/dotnet/interactive](https://github.com/dotnet/interactive) -->
 
 ## :construction: :abacus: Technology Requirements
-* [.NET 5 SDK](https://dotnet.microsoft.com/download)
+* [.NET 5 SDK](https://dotnet.microsoft.com/download) (recommended)
+* [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download) (the other option you can use)
 
 ## :gear: :hammer: Setup Guides
 
