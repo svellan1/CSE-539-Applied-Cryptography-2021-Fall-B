@@ -13,7 +13,28 @@ namespace P1_1
             // bitwise XOR function 0xFF ^ 0xAB
             // Look up BitArray in C# made from byte[]
             BitArray inputbits = new BitArray(inputBytes);
+            BitArray bmpBits = new BitArray(bmpBytes);
+            for(int i=208 , j=8; i<bmpBits.Length && j<= inputbits.Length; i++)
+                {
+                    if( ( (i) % 8 ) == 0 ){
+
+                        if((j-2) >= 0) 
+                            j -= 2;
+
+                        bmpBits[i]= bmpBits[i] ^ inputbits[j];
+                        bmpBits[i+1]= bmpBits[i+1] ^ inputbits[j+1];
+                        
+                        if(( j % 8)==0 && ((j +15) < inputbits.Length ))
+                            j = j + 16;
+                        
+                    }
+                    else
+                    bmpBits[i]= bmpBits[i] ^ false;
+                }
+               
+
             byte[] exampleByteArray = new byte[bmpBytes.Length]; // just a placeholder so that the code works from scatch without errors
+             bmpBits.CopyTo(exampleByteArray, 0);
             return exampleByteArray;
         }
 
@@ -83,7 +104,13 @@ namespace P1_1
             // TODO: Convert input string to an array of bytes (inputBytes)
             Convert.ToByte("F8", 16); // This is an example of how to convert a string such as "F8" to a byte. (base 16 because F8 is Hexadecimal)
 
-            byte[] inputBytes = new byte[10]; // this line is just a placeholder. You will need to start with the input string and convert the string to a byte array (in this example that byte array is named inputBytes)
+           byte[] inputBytes = new byte[(input.Length +1)/3];
+            for (int i = 0 , j= 0 ; i < input.Length; i += 3, j++)
+                    inputBytes[j] = Convert.ToByte(input.Substring(i, 2), 16);
+               
+
+            //byte[] inputBytes = new byte[10]; // this line is just a placeholder. You will need to start with the input string and convert the string to a byte array (in this example that byte array is named inputBytes)
+           
             // TODO: put your code in the solve function and have it return the solution in the form of a byte array 
             byte[] solution = Solve(inputBytes, bmpBytes); 
 
